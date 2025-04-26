@@ -1,5 +1,3 @@
-I may make spelling(spelling?) mistakes in text cuz english is not my mother language and i dont care at all. 
-
 # Foolin2day is...
 
 Simple program to troll ur friends!
