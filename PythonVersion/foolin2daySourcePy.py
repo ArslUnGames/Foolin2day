@@ -115,7 +115,7 @@ def main_loop():
             random_event()  # Trigger a random event
     except KeyboardInterrupt:
         print("\nScript stopped manually.")
-        cleanup()  # Очистка созданных файлов
+        cleanup()
         print(tex * 100)
         time.sleep(0.1)
 
