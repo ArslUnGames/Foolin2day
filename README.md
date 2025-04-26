@@ -42,9 +42,3 @@ Attribution: If you create a video, post, or any content for platforms like YouT
 - C Console Version: Just a program that shows what events are going on now and how long the next event will be, !coded on C!
 
 - C Default Version: Same program, but without console and running on "quiet". !coded on C!
-
-
-
-
-
-freak, at first you think that the readme will be short, but it turns out as always
