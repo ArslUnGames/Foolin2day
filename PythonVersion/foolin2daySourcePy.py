@@ -11,7 +11,6 @@ def shake_cursor():
     print("Event: Shakin' cursor")
     end_time = time.time() + 10  # Shaking for 10 seconds
     while time.time() < end_time:
-        # Берем текущую позицию курсора в начале каждой итерации
         x, y = pyautogui.position()
         offset_x = random.randint(-25, 25)
         offset_y = random.randint(-25, 25)
@@ -120,5 +119,4 @@ def main_loop():
         print(tex * 100)
         time.sleep(0.1)
 
-# Запуск основного цикла
 main_loop()
