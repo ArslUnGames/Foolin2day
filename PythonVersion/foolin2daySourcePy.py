@@ -23,7 +23,7 @@ def play_error_sound():
 
 def type_random_text():
     print("Event: Typing random text")
-    messages = ["Oops!", "What's happening?", "Glitch in the matrix!", "Why so serious?", "Is anyone there?"]
+    messages = ["Oops!", "What's happening?", "Glitch in the matrix!", "Why so serious?", "Is anyone there?", "Hey..?"]
     message = random.choice(messages)
     for char in message:
         pyautogui.typewrite(char, interval=0.1)
@@ -67,7 +67,7 @@ def add_desktop_icon():
 
 def open_random_emoticon():
     print("Event: Showing random emoticon popup")
-    emoticons = ["¯\\_(ツ)_/¯", "(ಠ_ಠ)", "(╯°□°）╯︵ ┻━┻", "(づ｡◕‿‿◕｡)づ", "(ಥ﹏ಥ)"]
+    emoticons = ["¯\\_(ツ)_/¯", "(ಠ_ಠ)", "(╯°□°）╯︵ ┻━┻", "(づ｡◕‿‿◕｡)づ", "(ಥ﹏ಥ)", ":P", ":D"]
     pyautogui.alert(text=random.choice(emoticons), title="Emoticon Alert", button="umm...")
 
 def block_taskbar():
